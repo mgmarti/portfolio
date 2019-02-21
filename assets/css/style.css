@@ -1,0 +1,53 @@
+    
+        <style>
+
+        body {
+            background-image: url("assets/images/tic-tac-toe.png");
+        }
+        .navigation {
+            background-color: white;
+            border: 1px solid #cccccc;
+        }
+
+        .logo {
+            background-color: #4aaaa5;
+            margin-left: 260px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .logo, .menu {
+            display: inline-block;
+        }
+
+        .menu {
+            font-family: Arial, Helvetica, sans-serif;
+            float: right;
+            margin: 2px;
+            margin-right: 280px;
+        }
+        
+        .menu ul {
+            padding-left: 0px;
+            list-style-type: none;
+        }
+        
+        .menu ul li {
+            display: inline-block;
+            margin: 15px;
+        }
+
+        .menu ul a {
+            text-decoration: none;
+        }
+
+        .about {
+            width: 960px;
+            background-color: white;
+            border: 1px solid #cccccc;
+            margin-top: 30px;
+            margin-left: 260px;
+        }
+        
+        
+        </style>
