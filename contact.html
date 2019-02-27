@@ -35,21 +35,17 @@
            </div>
            
            <div class="container">
-                <form action="action_page.php">
-                      
-                    <label for="fname">Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Full Name">
-                      
-                    <label for="lname">Email</label>
-                    <input type="text" id="email" name="email" placeholder="example abc@gmail.com">
-                      
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Type your message here..." style="height:200px"></textarea>
-                      
-                    <input type="submit" value="Submit">
-                      
+                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                    <label for="fname">Name:</label>
+                    <input type="text" name="name" placeholder="Full Name">
+
+                    <label for="fname">E-mail</label>
+                    <input type="text" name="mail" placeholder="your@email.com">
+
+                    <label for="fname">Message</label>
+                    <input type="text" name="comment" style="height:200px">
+                    <input type="submit" value="Send">
                 </form>
-            
            </div>
 
        </div>
